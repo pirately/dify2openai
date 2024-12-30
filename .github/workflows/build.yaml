@@ -48,4 +48,4 @@ jobs:
           org.opencontainers.image.source=https://github.com/${{ github.repository }}
           org.opencontainers.image.revision=${{ github.sha }}
         tags: |
-          ${{ secrets.DOCKER_USERNAME }}/dify2openai:${{ env.TAG }}
+          ${{ secrets.DOCKERHUB_USERNAME }}/dify2openai:${{ env.TAG }}
